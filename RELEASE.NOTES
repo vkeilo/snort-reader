@@ -1,0 +1,11 @@
+2020-07-24 - Snort 2.9.16.1
+
+[*] New Additions
+
+ * Added support for GCC version 10.1.1.
+
+[*] Improvements / Fix
+
+ * Added packet counters to make sure flows with one-way data don't pend forever.
+
+ * Fixed potential race condition between reload and exit path.
